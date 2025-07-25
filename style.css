@@ -1,0 +1,167 @@
+.display-flex {
+  display: flex;
+}
+.text-gray {
+  color: #252432;
+}
+.text-light-gray {
+  color: #8987a1;
+}
+.text-orange {
+  color: #e95a08;
+}
+.text-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  /* height: 71px; */
+  margin: 0 100px;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.cart {
+  margin-left: 5px;
+  color: #000000;
+}
+.banner-title {
+  font-size: 4.06rem;
+  font-weight: 700;
+}
+.banner-container {
+  align-items: center;
+  padding-top: 40px;
+  /* border: 1px solid black; */
+  width: 1140px;
+  height: 461px;
+  margin-left: 130px;
+}
+
+/* card items */
+.card-container {
+  margin: 5px 50px;
+  /* border: 1px solid black; */
+}
+.card-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+}
+.card-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.card-btn {
+  background-color: #e95a08;
+  color: white;
+  width: 270px;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+}
+.card-box {
+  width: 270px;
+  height: 484px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+.card-box img {
+  width: 270px;
+  height: 310px;
+}
+.card-h3 {
+  margin-top: 0px;
+}
+.card-h2 {
+  margin-top: 0px;
+}
+
+/* responsive styles */
+@media screen and (max-width: 576px) {
+  .display-none {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    gap: 80px;
+    max-width: 1400px;
+    /* border: 1px solid black; */
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    margin-left: 0px;
+    /* border: 1px solid teal; */
+    max-width: 450px;
+    gap: 30px;
+  }
+  .banner-container img {
+    width: 393px;
+    height: 245px;
+  }
+  .banner-title {
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+  .banner-description {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .banner {
+    /* align-items: left; */
+    width: 360px;
+    text-align: left;
+    /* height: 68px; */
+  }
+
+  .card-container {
+    width: 393px;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .card-items {
+    grid-template-columns: repeat(2, 1fr);
+    width: 362px;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .card-content {
+    height: 117px;
+    width: 393px;
+    text-align: center;
+  }
+  .card-box {
+    width: 170px;
+    height: 340px;
+  }
+  .card-box img {
+    width: 171px;
+    height: 186px;
+  }
+  .card-btn {
+    width: 171px;
+  }
+  .card-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
