@@ -92,6 +92,36 @@
   margin-top: 0px;
 }
 
+.join {
+  /* width: 1440px; */
+  height: 533px;
+  background-image: url(assets/news-letter-bg.png);
+  background-size: auto;
+  text-align: center;
+  margin-left: 0px;
+}
+.join-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: white;
+  padding-top: 150px;
+}
+.input-section input {
+  width: 634px;
+  height: 45px;
+  border: none;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-left: 18%;
+}
+.input-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 50px;
+  width: 185px;
+  height: 47px;
+}
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
   .display-none {
@@ -163,5 +193,35 @@
   .card-description {
     font-size: 0.875rem;
     font-weight: 400;
+  }
+
+  .join {
+    width: 393px;
+    height: 275px;
+    /* background-repeat: no-repeat; */
+    background-size: 393px 275px;
+  }
+  .join-section {
+    height: 100px;
+    width: 321px;
+  }
+  .join-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 100px;
+  }
+  .input-section {
+    width: 321px;
+    height: 50px;
+    display: flex;
+  }
+  .input-section input {
+    width: 218px;
+    padding-left: 0px;
+    /* margin-left: 0px; */
+  }
+  .input-btn {
+    width: 100px;
+    padding: 10px 10px;
   }
 }
